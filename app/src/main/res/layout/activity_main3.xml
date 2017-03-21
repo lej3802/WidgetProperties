@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str2"
+        android:background="#d8f1b7"
+        android:textSize="25dp"
+        android:layout_margin="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str3"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:padding="40dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginTop="15dp"
+        android:background="#8696ff"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="40sp"
+        android:background="#f2e2f4"
+        android:paddingBottom="40dp"
+        android:paddingTop="40dp"
+        android:text="@string/but_str4"
+        android:textSize="20dp"
+        android:layout_weight="0.51" />
+
+
+</LinearLayout>
