@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:text="@string/text1"
         android:textSize="30sp"
+        android:background="#e7b2ad"
         />
 
     <TextView
